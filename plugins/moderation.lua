@@ -204,7 +204,7 @@ local function admin_list(msg)
   if next(data['admins']) == nil then --fix way
     return 'No GLOBAL ADMIN available'
   end
-  local message = 'Umbrella Bot GLOBAL ADMINS:\n______________________________\n'
+  local message = 'angry Bot GLOBAL ADMINS:\n______________________________\n'
   for k,v in pairs(data['admins']) do
     message = message .. '>> @'.. v ..' ('..k..') \n'
   end
