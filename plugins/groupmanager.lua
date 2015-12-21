@@ -306,12 +306,12 @@ return {
 	"/setphoto : set group photo",
 	"/setabout (message) : set group about",
     "/setrules (message) : set group rules",
-    "/group + name : lock group name",
-    "/group + photo : lock group photo",
-    "/group + member : lock group member",		
-    "/group - name : unlock group name",
-    "/group - photo : unlock group photo",
-    "/group - member : unlock group member",		
+    "/lock name : lock group name",
+    "/lock photo : lock group photo",
+    "/lock member : lock group member",		
+    "/lock name : unlock group name",
+    "/unlock photo : unlock group photo",
+    "/unlock member : unlock group member",		
     "/group ? : view group settings"
     },
   patterns = {
