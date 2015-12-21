@@ -62,7 +62,7 @@ end
 if msg.text == " خوبی آبجی ؟" then 
 	return " کص لیسی ممنوع " 
 end 
-
+end
 return {
 	description = "Chat With Robot Server", 
 	usage = "chat with robot",
