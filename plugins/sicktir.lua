@@ -65,6 +65,12 @@ end
 if msg.text == " خوبی آبجی ؟" then 
 	return " کص لیسی ممنوع " 
 end 
+if msg.text == " mafia" then 
+	return " مافیا ک همشون چوس ممبر گاییدن نداره چچچ "
+end
+if msg.text == " MAFIA" then 
+	return " مافیا که همشون چوس ممبر گاییدن نداره چچچ "
+end
 end
 return {
 	description = "Chat With Robot Server", 
@@ -72,6 +78,7 @@ return {
 	patterns = {
 		"^[Hh]i$",
 		"^[Kk]osenanat",
+		"^[Mm]afia$,
 		"^[Hh]ello$",
 		"^[Zz]ac$",
 		"^ZAC$",
