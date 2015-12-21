@@ -50,6 +50,9 @@ end
 if msg.text == "kosenanat" then
 	return "کس ننه خودت مادر جنده "
 end
+if msg.text =="Kosenanat" then 
+	return " کس ننه خودت مادر جنده "
+end
 if msg.text == "madar jende" then 
 	return " جنده ننته خارکونی "
 end 
@@ -68,7 +71,7 @@ return {
 	usage = "chat with robot",
 	patterns = {
 		"^[Hh]i$",
-		"^[Kk]osnanat",
+		"^[Kk]osenanat",
 		"^[Hh]ello$",
 		"^[Zz]ac$",
 		"^ZAC$",
