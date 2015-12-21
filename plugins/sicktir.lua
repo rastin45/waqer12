@@ -77,7 +77,7 @@ return {
 	usage = "chat with robot",
 	patterns = {
 		"^[Hh]i$",
-		"^[Kk]osenanat",
+		"^[Kk]osenanat$",
 		"^[Mm]afia$,
 		"^[Hh]ello$",
 		"^[Zz]ac$",
