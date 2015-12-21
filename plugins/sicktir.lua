@@ -1,9 +1,9 @@
 local function run(msg)
 if msg.text == "hi" then
-	return "Hello bb"
+	return "سلام خوش اومدی "
 end
 if msg.text == "Hi" then
-	return "Hello honey"
+	return "سلام خوش اومدی "
 end
 if msg.text == "Hello" then
 	return "Hi bb"
@@ -47,7 +47,21 @@ end
 if msg.text == "bye" then
 	return "Bye Bye"
 end
+if msg.text == "کس ننت " then
+	return "کس ننه خودت مادر جنده "
 end
+if msg.text == "مادر جنده " then 
+	return " جنده ننته خارکونی "
+end 
+if msg.text == " ننتو گاییدم " then 
+	return " ننت که الان میگاییدم بیا جمش کن "
+end 
+if msg.text == " کیر " then 
+	return " دلت میخواد ؟"
+end 
+if msg.text == " خوبی آبجی ؟" then 
+	return " کص لیسی ممنوع " 
+end 
 
 return {
 	description = "Chat With Robot Server", 
