@@ -15,34 +15,34 @@ if msg.text == "Salam" then
 	return "Salam aleykom"
 end
 if msg.text == "salam" then
-	return "va aleykol asalam"
+	return "گیریم سلام بعدش ؟"
 end
 if msg.text == "zac" then
-	return "Barash bezan sak"
+	return "زاک رو که هزار بار گاییدم"
 end
 if msg.text == "Zac" then
-	return "Barash bezan sak"
+	return "زاک که ننش زیرمه "
 end
 if msg.text == "ZAC" then
-	return "Barash bezan sak"
+	return "برا شما بزنه ساک "
 end
 if msg.text == "Umbrella" then
 	return "Yes?"
 end
 if msg.text == "umbrella" then
-	return "What?"
+	return "رباتی که از ما اسکی رفت ؟"
 end
 if msg.text == "bot" then
-	return "hum?"
+	return "چیه ؟"
 end
 if msg.text == "Bot" then
-	return "Huuuum?"
+	return "بناللللللل دیگ "
 end
 if msg.text == "?" then
-	return "Hum??"
+	return "؟ این چیه اخه "
 end
 if msg.text == "Bye" then
-	return "Babay"
+	return "بسلامت "
 end
 if msg.text == "bye" then
 	return "Bye Bye"
